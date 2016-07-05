@@ -3,6 +3,8 @@
 // http://docs.sublimetext.info/en/latest/customization/settings.html
 // for more info
 {
+    "always_show_minimap_viewport": true,
+    "draw_minimap_border": true,
 
     // Tab and whitespace handling.
     // Indent using spaces, 4 spaces ber indent by default, clean up extra whitespaces on save
@@ -35,9 +37,14 @@
 
     "font_face" : "Source Code Pro",
     "font_size": 14,
-    "line_padding_bottom": 1,
 
     "highlight_line": true,
+    "ensure_newline_at_eof_on_save": true,
+    "find_selected_text": true,
+    "line_padding_bottom": 1,
+    "line_padding_top": 1,
+    "open_files_in_new_window": false,
+    "shift_tab_unindent": true,
      // Don't show hidden (dotted) directories and binary files in the sidebar
     // (You are not going to edit them in any case)
     "file_exclude_patterns": [".*", "*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db"]
