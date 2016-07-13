@@ -30,7 +30,7 @@
     // Install better them
     // (You can get this from the package control)
     // https://github.com/buymeasoda/soda-theme/
-    "theme": "Soda Dark.sublime-theme",
+    "color_scheme": "Packages/Theme - amCoder/amCoder.tmTheme",
 
     // Download better font
     // https://github.com/adobe/Source-Code-Pro
